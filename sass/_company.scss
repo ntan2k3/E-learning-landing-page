@@ -1,0 +1,23 @@
+@import "./variables";
+.company {
+    text-align: center;
+    &-heading {
+        color: $light-blue;
+        font-size: 24px;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: 160%;
+        letter-spacing: 0.56px;
+    }
+    &-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 75.75px;
+        margin: auto;
+        margin-top: 36px;
+    }
+    &-logo {
+        width: 164px;
+    }
+}

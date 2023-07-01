@@ -1,0 +1,154 @@
+    @import "./variables";
+    .testimonial {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        margin-bottom: 250px;
+        &-title {
+            display: flex;
+            align-items: center;
+            gap: 0 30px;
+            margin-bottom: 30px;
+        }
+        &-text {
+            color: $blue;
+            font-size: 16px;
+            font-family: Nunito Sans;
+            font-weight: 400;
+            letter-spacing: 4px;
+        }
+        &-heading {
+            color: $primary-color;
+            font-size: 52px;
+            font-family: Nunito Sans;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        &-desc {
+            width: 400px;
+            color: $light-blue;
+            font-size: 18px;
+            font-family: Poppins;
+            font-weight: 400;
+            line-height: 160%;
+            letter-spacing: 0.52px;
+            margin-bottom: 30px;
+        }
+        &-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            color: $secondary-color;
+            background-color: transparent;
+            border: 1px solid $secondary-color;
+            font-size: 14px;
+            font-family: Nunito Sans;
+            font-weight: 400;
+            line-height: 180%;
+            width: 280px;
+            height: 60px;
+            border-radius: 60px;
+            p {
+                margin-left: 40px;
+            }
+        }
+        &-arrow {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 1px solid $secondary-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 20px;
+            }
+        }
+        &-image {
+            position: relative;
+        }
+        &-pic {
+            height: 640px;
+            border-radius: 40px;
+        }
+        &-box {
+            display: flex;
+            position: absolute;
+            bottom: -90px;
+            left: 80px;
+            .red-box {
+                width: 12px;
+                height: 256px;
+                border-radius: 20px 0px 0px 20px;
+                background: #F67766;
+                box-shadow: 2px 4px 60px 0px rgba(41, 44, 124, 0.10);
+            }
+            .white-box {
+                width: 560px;
+                height: 256px;
+                border-radius: 0px 20px 20px 0;
+                background: #FFF;
+                box-shadow: 2px 4px 60px 0px rgba(41, 44, 124, 0.10);
+            }
+        }
+        &-comment {
+            display: flex;
+            align-items: center;
+            margin: 30px 24px 30px 24px;
+            gap: 24px;
+        }
+        &-line {
+            width: 1px;
+            height: 100px;
+            background: #BDBDD1;
+        }
+        &-cmt {
+            width: 440px;
+            color: $light-blue;
+            font-size: 16px;
+            font-family: Nunito Sans;
+            font-weight: 400;
+            line-height: 180%;
+            letter-spacing: 0.44px;
+        }
+        &-rate {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-name {
+            color: $light-blue;
+            font-size: 24px;
+            font-family: Nunito Sans;
+            font-weight: 600;
+            line-height: 180%;
+            margin-left: 60px;
+        }
+        &-stars {
+            text-align: right;
+            margin-right: 42px;
+            img {
+                width: 137px;
+                height: 23.975px;
+            }
+        }
+        &-viewers {
+            color: #80819A;
+            font-size: 18px;
+            font-family: Nunito Sans;
+            font-weight: 600;
+            line-height: 180%;
+            letter-spacing: 0.36px;
+        }
+        &-next {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            right: -110px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+    }
