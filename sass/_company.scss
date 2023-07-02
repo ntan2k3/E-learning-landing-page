@@ -21,3 +21,39 @@
         width: 164px;
     }
 }
+
+@media screen and (min-width: 425px) and (max-width: 726px) {
+    .company {
+        &-heading {
+            font-size: 20px;
+        }
+        &-logos {
+            flex-wrap: wrap;
+            gap: 20px 50px;
+        }
+        &-logo {
+            width: 120px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 425px) {
+    .company {
+        &-heading {
+            font-size: 14px;
+        }
+        &-logos {
+            flex-wrap: wrap;
+            gap: 12px 40px;
+        }
+        &-logo {
+            width: 120px;
+            img {
+                width: 90%;
+            }
+        }
+    }
+}
