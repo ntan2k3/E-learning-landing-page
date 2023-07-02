@@ -157,3 +157,101 @@
     background-color: #23BDEEE5;
     border: none;
 }
+
+@media screen and (min-width: 425px) and (max-width: 726px) {
+    .introduce {
+        margin-top: 100px;
+        padding: 0 28px;
+        .text1,
+        .text2 {
+            width: 100%;
+        }
+        &-header {
+            width: 322px;
+        }
+        &-item {
+            width: 240px;
+        }
+        &-icon {
+            width: 60px;
+            height: 60px;
+        }
+        &-list,
+        &-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 80px;
+        }
+        &-button {
+            padding: 12px 20px;
+        }
+        &-image img {
+            width: 100%;
+        }
+        &-guide h3 {
+            font-size: 20px;
+            margin-bottom: 24px;
+        }
+        .icon-file img {
+            width: 24px;
+        }
+        .icon-calendar img {
+            width: 32px;
+        }
+        .icon-users img {
+            width: 36px;
+        }
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 426px) {
+    .introduce {
+        margin-top: 100px;
+        margin-bottom: 120px;
+        padding: 0 28px;
+        .text1,
+        .text2 {
+            width: 100%;
+        }
+        &-header {
+            width: 322px;
+        }
+        &-item {
+            width: 240px;
+        }
+        &-icon {
+            width: 60px;
+            height: 60px;
+        }
+        &-list,
+        &-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 80px;
+        }
+        &-button {
+            font-size: 12px;
+            padding: 10px 18px;
+        }
+        &-image img {
+            width: 100%;
+        }
+        &-guide h3 {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        .icon-file img {
+            width: 24px;
+        }
+        .icon-calendar img {
+            width: 32px;
+        }
+        .icon-users img {
+            width: 36px;
+        }
+    }
+}
