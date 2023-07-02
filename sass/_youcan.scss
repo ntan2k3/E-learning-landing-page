@@ -18,13 +18,7 @@
             top: -15px;
             left: -30px;
         }
-        .ellipse2 {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            right: 0;
-            top: 50%;
-        }
+        
     }
     &__heading {
         color: $primary-color;
@@ -90,9 +84,6 @@
                 width: 60px;
                 height: 60px;
             }
-            .ellipse2 {
-                top: 60%;
-            }
         }
         &__heading {
             font-size: 28px;
@@ -130,9 +121,7 @@
                 width: 60px;
                 height: 60px;
             }
-            .ellipse2 {
-                top: 60%;
-            }
+            
         }
         &__heading {
             font-size: 28px;
