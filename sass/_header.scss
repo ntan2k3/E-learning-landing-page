@@ -13,7 +13,6 @@
         margin-left: auto;
         margin-right: auto;
         padding: 0 15px;
-        margin-bottom: 80px;
     }
     &-top {
         padding-top: 40px;
@@ -35,7 +34,7 @@
     }
     &-content {
         padding-top: 50px;
-        margin-left: 40px;
+        padding-left: 40px;
         width: 681px;
     }
     &-heading {
@@ -137,4 +136,99 @@
 .btn--primary {
     background: $secondary-color;
     padding: 13px 36px 14px 37px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 726px) {
+    .header {
+        clip-path: ellipse(142% 92% at top);
+        &-button {
+            display: none;
+        }
+        &-main {
+            flex-direction: column;
+        }
+        &-content {
+            width: 100%;
+            padding: 0 0 80px;
+        }
+        &-heading {
+            font-size: 28px;
+        }
+        &-desc {
+            width: 100%;
+        }
+        &-image img {
+            width: 100%;
+        }
+        &-actions {
+            gap: 0;
+            .btn {
+                text-align: center;
+                width: 110px;
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+            .watch-icon {
+                width: 51.2px;
+                height: 51.2px;
+                margin: 0 18px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 425px) {
+    .header {
+        min-height: 820px;
+        clip-path: ellipse(142% 92% at top);
+        &-button {
+            display: none;
+        }
+        &-main {
+            flex-direction: column;
+        }
+        &-content {
+            width: 100%;
+            padding: 0 0 80px;
+        }
+        &-heading {
+            font-size: 26px;
+        }
+        &-desc {
+            width: 100%;
+            font-size: 16px;
+        }
+        &-image img {
+            width: 100%;
+        }
+        &-actions {
+            gap: 0;
+            .btn {
+                text-align: center;
+                width: 80px;
+                padding: 12px 24px;
+                font-size: 12px;
+            }
+            .watch-icon {
+                width: 42.4px;
+                height: 42.4px;
+                margin: 0 18px;
+                img {
+                    width: 12px;
+                }
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    .menu {
+        display: none;
+    }
 }
